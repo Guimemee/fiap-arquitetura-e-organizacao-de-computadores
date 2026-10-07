@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.8" stroke-opacity="0.4" />
+      <circle cx="40" cy="40" r="1.5" fill="#f59e0b" fill-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="520" fill="url(#bgGrad)" rx="16" />
+  <rect width="1200" height="520" fill="url(#grid)" rx="16" />
+  <rect width="1196" height="516" x="2" y="2" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-opacity="0.35" rx="14" />
+
+  <path d="M 40 40 L 280 40 L 310 70 L 600 70 L 620 50 L 1160 50" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.3" />
+  <circle cx="280" cy="40" r="3.5" fill="#3b82f6" />
+  <circle cx="600" cy="70" r="3.5" fill="#f59e0b" />
+  <circle cx="1160" cy="50" r="4" fill="#06b6d4" />
+
+  <g transform="translate(60, 85)">
+    <rect x="0" y="0" width="80" height="28" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2" />
+    <text x="40" y="19" fill="#f59e0b" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" text-anchor="middle" letter-spacing="1">FIAP</text>
+
+    <rect x="95" y="0" width="100" height="28" rx="6" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2" />
+    <text x="145" y="19" fill="#3b82f6" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" text-anchor="middle" letter-spacing="1">1ECR</text>
+
+    <rect x="210" y="0" width="145" height="28" rx="6" fill="#1e293b" stroke="#06b6d4" stroke-width="1" />
+    <text x="282" y="18" fill="#06b6d4" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">ENG. COMPUTAÇÃO</text>
+
+    <text x="0" y="75" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="36" font-weight="900">ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES</text>
+    <text x="0" y="108" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="16" font-weight="500">Organização de Computadores, CPU Neander, Hierarquia de Memória e Barramentos</text>
+  </g>
+
+  <g transform="translate(60, 240)">
+    <g transform="translate(0, 0)">
+      <rect width="250" height="130" rx="12" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" stroke-opacity="0.6" />
+      <rect width="250" height="4" rx="2" fill="#f59e0b" />
+      <text x="20" y="32" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">ARQUITETURA CPU</text>
+      <text x="20" y="75" fill="#f59e0b" font-family="-apple-system, sans-serif" font-size="32" font-weight="900">8-BIT</text>
+      <text x="20" y="105" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">Processador Neander Didático</text>
+    </g>
+
+    <g transform="translate(275, 0)">
+      <rect width="250" height="130" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.6" />
+      <rect width="250" height="4" rx="2" fill="#3b82f6" />
+      <text x="20" y="32" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">ALCANCE WIRELESS</text>
+      <text x="20" y="75" fill="#3b82f6" font-family="-apple-system, sans-serif" font-size="32" font-weight="900">4.0 km</text>
+      <text x="20" y="105" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">Link Budget IoT Sub-GHz</text>
+    </g>
+
+    <g transform="translate(550, 0)">
+      <rect width="250" height="130" rx="12" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5" stroke-opacity="0.6" />
+      <rect width="250" height="4" rx="2" fill="#06b6d4" />
+      <text x="20" y="32" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">LATÊNCIA L1 CACHE</text>
+      <text x="20" y="75" fill="#06b6d4" font-family="-apple-system, sans-serif" font-size="32" font-weight="900">1.0 ciclo</text>
+      <text x="20" y="105" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">AMAT Otimizado (Hit 95%)</text>
+    </g>
+
+    <g transform="translate(825, 0)">
+      <rect width="255" height="130" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.6" />
+      <rect width="255" height="4" rx="2" fill="#10b981" />
+      <text x="20" y="32" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">TAXA DE TRANSFERÊNCIA</text>
+      <text x="20" y="75" fill="#10b981" font-family="-apple-system, sans-serif" font-size="32" font-weight="900">16 GB/s</text>
+      <text x="20" y="105" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">Barramento PCIe Gen3 x16</text>
+    </g>
+  </g>
+
+  <g transform="translate(60, 420)">
+    <rect x="0" y="0" width="165" height="34" rx="8" fill="#1e293b" stroke="#334155" /><text x="82" y="22" fill="#e2e8f0" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">⚙️ CPU Neander</text><rect x="175" y="0" width="165" height="34" rx="8" fill="#1e293b" stroke="#334155" /><text x="257" y="22" fill="#e2e8f0" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">🧠 Hierarquia Cache</text><rect x="350" y="0" width="165" height="34" rx="8" fill="#1e293b" stroke="#334155" /><text x="432" y="22" fill="#e2e8f0" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">🔢 IEEE-754</text><rect x="525" y="0" width="165" height="34" rx="8" fill="#1e293b" stroke="#334155" /><text x="607" y="22" fill="#e2e8f0" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">📡 RFID & IoT 4km</text><rect x="700" y="0" width="165" height="34" rx="8" fill="#1e293b" stroke="#334155" /><text x="782" y="22" fill="#e2e8f0" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">⚡ DMA & PCIe</text><rect x="875" y="0" width="165" height="34" rx="8" fill="#1e293b" stroke="#334155" /><text x="957" y="22" fill="#e2e8f0" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">💻 Assembly</text>
+  </g>
+</svg>
